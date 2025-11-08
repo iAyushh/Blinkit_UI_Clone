@@ -1,16 +1,50 @@
-# React + Vite
+# Blinkit UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **Blinkit-like Homepage UI** built with **React.js** and **Tailwind CSS**.  
+This project replicates the core layout and features of Blinkit, including header, categories, product grid, cart, and footer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Header**
+  - Logo
+  - Search bar with live suggestions
+  - Location selector dropdown
+  - Cart icon with item count
+  - Login button
+- **Categories Section**
+  - Horizontal scrollable list of product categories
+  - Realistic category images
+- **Banner Section**
+  - Hero / promotional banner
+- **Product Grid**
+  - Grid layout (responsive: mobile, tablet, desktop)
+  - Product cards showing image, name, price, discount
+  - Add to cart functionality with animation
+- **Cart Alerts**
+  - Pop-up alert when adding items to cart
+- **Footer**
+  - Company information
+  - Quick links
+  - Social media icons
+- **Responsive Design**
+  - Fully functional on mobile, tablet, and desktop
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** (Functional components + Hooks)  
+- **Tailwind CSS** for styling  
+- **Lucide-React** for icons  
+- **React state** for cart management  
+
+---
+
+## Installation
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/<username>/blinkit-ui-clone.git
