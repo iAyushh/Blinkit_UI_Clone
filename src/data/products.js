@@ -1,0 +1,17 @@
+export const products = [
+  { id: 1, name: 'Fresh Tomatoes', price: 45, originalPrice: 60, discount: 25, image: '🍅', category: 'Vegetables', weight: '500g' },
+  { id: 2, name: 'Amul Milk', price: 58, originalPrice: 62, discount: 6, image: '🥛', category: 'Dairy', weight: '1L' },
+  { id: 3, name: 'Lays Chips', price: 20, originalPrice: 25, discount: 20, image: '🍿', category: 'Snacks', weight: '50g' },
+  { id: 4, name: 'Coca Cola', price: 40, originalPrice: 50, discount: 20, image: '🥤', category: 'Drinks', weight: '750ml' },
+  { id: 5, name: 'Fresh Bananas', price: 50, originalPrice: 65, discount: 23, image: '🍌', category: 'Fruits', weight: '1 dozen' },
+  { id: 6, name: 'Bread Loaf', price: 35, originalPrice: 40, discount: 12, image: '🍞', category: 'Bakery', weight: '400g' },
+  { id: 7, name: 'Green Apples', price: 180, originalPrice: 220, discount: 18, image: '🍏', category: 'Fruits', weight: '1kg' },
+  { id: 8, name: 'Paneer', price: 90, originalPrice: 110, discount: 18, image: '🧀', category: 'Dairy', weight: '200g' },
+  { id: 9, name: 'Potato Chips', price: 30, originalPrice: 40, discount: 25, image: '🥔', category: 'Snacks', weight: '100g' },
+  { id: 10, name: 'Orange Juice', price: 120, originalPrice: 150, discount: 20, image: '🍊', category: 'Drinks', weight: '1L' },
+  { id: 11, name: 'Fresh Carrots', price: 40, originalPrice: 55, discount: 27, image: '🥕', category: 'Vegetables', weight: '500g' },
+  { id: 12, name: 'Cookies Pack', price: 50, originalPrice: 65, discount: 23, image: '🍪', category: 'Bakery', weight: '200g' },
+  { id: 13, name: 'Fresh Spinach', price: 30, originalPrice: 40, discount: 25, image: '🥬', category: 'Vegetables', weight: '250g' },
+  { id: 14, name: 'Yogurt Cup', price: 25, originalPrice: 30, discount: 16, image: '🥣', category: 'Dairy', weight: '100g' },
+  { id: 15, name: 'Mango Juice', price: 80, originalPrice: 100, discount: 20, image: '🥭', category: 'Drinks', weight: '1L' },
+];
